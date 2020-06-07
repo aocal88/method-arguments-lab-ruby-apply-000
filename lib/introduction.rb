@@ -1,5 +1,5 @@
-def introduction(name, language)
+def introduction_with_language(name, language)
   puts "Hi, my name is #{name}. I am learning to program in #{language}.\n"
 end
 
-introduction("Dan", "Ember.js")
+introduction_with_language("Josh", "Ruby")
